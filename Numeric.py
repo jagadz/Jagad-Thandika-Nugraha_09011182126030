@@ -27,7 +27,7 @@ def main():
     if rank == 0:
         print("Total hasil perhitungan:", total_sum)
 
-if _name_ == '_main_':
+if __name__== '__main__':
     main()
 end = time.time()
 print("waktu dikerjakan", end-start)
